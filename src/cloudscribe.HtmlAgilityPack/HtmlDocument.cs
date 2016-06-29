@@ -147,7 +147,7 @@ namespace cloudscribe.HtmlAgilityPack
 		public HtmlDocument()
 		{
 			_documentnode = CreateNode(HtmlNodeType.Document, 0);
-#if NETSTANDARD1_3 || NETSTANDARD1_5
+#if NETSTANDARD1_3 || NETSTANDARD1_5 || NETSTANDARD1_6
             OptionDefaultStreamEncoding =Encoding.UTF8;
 #else
 			OptionDefaultStreamEncoding = Encoding.Default;
