@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Xsl;
 
-namespace HtmlAgilityPack
+namespace cloudscribe.HtmlAgilityPack
 {
     public partial class HtmlWeb
     {
