@@ -18,9 +18,9 @@ using System.Security.Permissions;
 using System.Linq;
 using System.Net.Http;
 #endif
-#if !NET20
+
 using System.Threading.Tasks;
-#endif
+
 
 #endregion
 
